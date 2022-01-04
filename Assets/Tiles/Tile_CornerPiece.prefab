@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: isPlaceable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5544390030157049634, guid: 1a08cb86a732b6442b818428012982db, type: 3}
+      propertyPath: towerPrefab
+      value: 
+      objectReference: {fileID: 6483572942398858275, guid: 887eb6774983da64ca1602482ce99e60, type: 3}
     - target: {fileID: 6979686345490097634, guid: 1a08cb86a732b6442b818428012982db, type: 3}
       propertyPath: m_Name
       value: Tile_CornerPiece

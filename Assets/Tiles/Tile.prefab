@@ -185,6 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff4f16c15baaaf4e8361a4459b11cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  blockedColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &6979686345490097634
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,8 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064a3aeef7b3764bb09c8e61f0685a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerPrefab: {fileID: -6789256656518561453, guid: 887eb6774983da64ca1602482ce99e60, type: 3}
   isPlaceable: 1
-  towerPrefab: {fileID: 6483572942398858275, guid: 887eb6774983da64ca1602482ce99e60, type: 3}
 --- !u!65 &-3476106850700120548
 BoxCollider:
   m_ObjectHideFlags: 0

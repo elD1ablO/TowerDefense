@@ -20,6 +20,6 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHP--;
         if(currentHP <= 0) 
-            Destroy(gameObject);
+            gameObject.SetActive(false);
     }
 }

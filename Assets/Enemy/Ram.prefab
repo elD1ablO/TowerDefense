@@ -55,7 +55,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 0.18
+  speed: 0.62
 --- !u!65 &3552060125938075874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81,6 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214ac454e78eae847ac5a4805552f4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHP: 5
 --- !u!1 &7494587128444357888
 GameObject:
   m_ObjectHideFlags: 0

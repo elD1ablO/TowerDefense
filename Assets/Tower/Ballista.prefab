@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 6842194642337643337}
   projectileParticles: {fileID: 2553107440460997489}
-  range: 15
+  range: 25
 --- !u!114 &-6789256656518561453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5152586997efeb49bc3e81e18e8dfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 50
 --- !u!1 &9118219420900422680
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +336,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0

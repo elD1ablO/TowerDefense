@@ -94,9 +94,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 0,0
       objectReference: {fileID: 0}
+    - target: {fileID: 5544390030157049634, guid: 1a08cb86a732b6442b818428012982db, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6979686345490097634, guid: 1a08cb86a732b6442b818428012982db, type: 3}
       propertyPath: m_Name
-      value: Tile_TreeGroup 1
+      value: Tile_TreeLarge
       objectReference: {fileID: 0}
     - target: {fileID: 6979686345490097635, guid: 1a08cb86a732b6442b818428012982db, type: 3}
       propertyPath: m_RootOrder
